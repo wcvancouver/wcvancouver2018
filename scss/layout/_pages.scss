@@ -1,0 +1,105 @@
+@mixin headerStyle() {
+  background-image: url("https://wcosaka2018.github.io/wcosaka2018-theme/images/wapuu/maido-wapuu-line.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 120px;
+  padding: 0 !important;
+  margin: 0 0 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  text-transform: none;
+  @media screen and (min-width: 48em) {
+      margin: 2em 0 4em;
+  }
+}
+
+@mixin headerTitleStyle() {
+  @include text-gradation();
+  position: relative;
+  font-size: 1.25rem !important;
+  text-transform: none;
+  &:before,
+  &:after {
+      content: "";
+      display: inline-block;
+      width: 3em;
+      height: 2px;
+      margin-top: -1px;
+      position: absolute;
+      top: 50%;
+      background: linear-gradient(85deg, $color-green, $color-lilac);
+  }
+  &:before {
+      left: -3.5em;
+  }
+  &:after {
+      right: -3.5em;
+  }
+}
+
+body:not(.home) {
+  .site-header {
+      @media screen and (min-width: 48em) {
+          padding-top: 70px;
+      }
+  }
+
+  .single-featured-image-header {
+      //display: none;
+      border: none;
+      background-color: transparent;
+      padding-top: 3em;
+  }
+
+  .page-header {
+      @include headerStyle();
+      .page-title {
+          @include headerTitleStyle();
+      }
+  }
+
+  &:not(.blog):not(.single) {
+      .entry-header {
+          @include headerStyle();
+          .entry-title {
+              @include headerTitleStyle();
+          }
+      }
+  }
+
+  .custom-header {
+      display: none;
+  }
+  .site-content {
+      .wrap {
+          @media screen and (min-width: 48em) {
+              max-width: 740px;
+          }
+      }
+  }
+}
+
+.blog,
+.single-post,
+.single-wcb_sponsor {
+  .entry-title {
+      @include text-gradation();
+      a {
+          @include text-gradation();
+      }
+  }
+}
+
+.page-header,
+.content-area .site-main article {
+  width: 100% !important;
+  float: none !important;
+}
+
+.site-content-contain {
+  background-color: transparent;
+}

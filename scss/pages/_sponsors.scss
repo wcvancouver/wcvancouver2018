@@ -1,0 +1,64 @@
+.wcb_widget_sponsors {
+	text-align: center;
+	.sponsor-level {
+			overflow: hidden;
+			margin: 0 -1em;
+	}
+	.sponsor-level-title {
+			width: 100%;
+			margin: 2em 0;
+	}
+	.sponsor-logo {
+			box-shadow: none !important;
+			padding: 0 1em;
+			box-sizing: border-box;
+			float: left;
+			&:hover {
+					opacity: .7;
+			}
+			img {
+					border-top: 1px solid rgba($color-black, .2);
+					box-shadow: none;
+					width: 100% !important;
+					max-height: none !important;
+			}
+	}
+	.platinum {
+			.sponsor-logo {
+					@media screen and (min-width: 30em) {
+							width: calc(100% / 2);
+					}
+			}
+	}
+	.gold,
+	.in-kind {
+			.sponsor-logo {
+					@media screen and (min-width: 30em) {
+							width: calc(100% / 2);
+					}
+					@media screen and (min-width: 48em) {
+							width: calc(100% / 3);
+					}
+			}
+	}
+	.silver {
+			.sponsor-logo {
+					@media screen and (min-width: 30em) {
+							width: calc(100% / 2);
+					}
+					@media screen and (min-width: 48em) {
+							width: calc(100% / 4);
+					}
+			}
+	}
+	.bronze {
+			.sponsor-logo {
+					@media screen and (min-width: 30em) {
+							width: calc(100% / 2);
+					}
+					@media screen and (min-width: 48em) {
+							width: calc(100% / 5);
+					}
+			}
+	}
+}

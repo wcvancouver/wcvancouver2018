@@ -1,0 +1,54 @@
+body {
+  font-size: 14px;
+  overflow-wrap : break-word;
+  &:not(.home) {
+      .site {
+          width: 100%;
+          min-height: 100%;
+          background-image: url("https://wcosaka2018.github.io/wcosaka2018-theme/images/layout/logo-main-bg.png");
+          background-repeat: no-repeat;
+          background-position: 0 0;
+          background-size: 250px;
+          @media screen and (min-width: 48em) {
+              background: none;
+          }
+      }
+  }
+}
+
+.edit-link {
+  display: none !important;
+}
+
+.cf {
+  &:after {
+      content: "";
+      clear: both;
+      display: block;
+  }
+}
+
+.block-area {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .block-area-inner {
+      width: 100%;
+      box-sizing: border-box;
+  }
+  @media screen and (min-width: 48em) {
+      .block-area-half {
+          width: calc((100% - 3em) / 2);
+       }
+  }
+}
+
+.comment-body {
+  margin-left: 0;
+  .comment-author {
+      display: none;
+  }
+  .reply {
+      padding-left: 2em;
+  }
+}

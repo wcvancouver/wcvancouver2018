@@ -1,0 +1,63 @@
+.site-footer {
+  border: none;
+  .wrap {
+      padding: 2em 1.5em 1.5em;
+  }
+}
+
+.widget-column {
+  float: none !important;
+  width: 100% !important;
+  text-align: center;
+  .wcb_widget_sponsors {
+      max-width: 740px;
+      margin: 0 auto;
+      position: relative;
+      &::before {
+          @include bigIndexBefore("Sponsors");
+          top: -.4em;
+          bottom: auto;
+      }
+      .widget-title {
+          @include bigIndexText();
+      }
+  }
+}
+
+.site-info{
+  width:100%;
+  border-top: 1px solid rgba($color-black, .5);
+  float: none;
+  text-align: center;
+  padding-top: 30px;
+  position:relative;
+  a{
+      position: relative;
+  }
+  &::before{
+      z-index: 2;
+      display: block;
+      position: absolute;
+      background: #fff;
+      color: $color-green;
+      font-size: 40px;
+      line-height:50px;
+      content: "\f120";
+      font-family: dashicons;
+      text-indent: 0;
+      text-align: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      top: -25px;
+      left: 50%;
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%)
+  }
+}
+
+.home {
+  .widget_text {
+      display: none;
+  }
+}
