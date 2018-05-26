@@ -3693,10 +3693,7 @@ a.more-link {
 .site-footer {
   border: none; }
   .site-footer .wrap {
-    padding: calc(4em + 20px) 1.5em 4em; }
-    @media screen and (min-width: 48em) {
-      .site-footer .wrap {
-        padding: calc(5em + 70px) 1.5em 4em; } }
+    padding: 2em 1.5em 1.5em; }
 
 .widget-column {
   float: none !important;
@@ -4124,28 +4121,32 @@ body:not(.home) .custom-header {
       width: 100% !important;
       max-height: none !important; }
   @media screen and (min-width: 30em) {
-    .wcb_widget_sponsors .platinum .sponsor-logo {
+    .wcb_widget_sponsors .sky .sponsor-logo {
       width: calc(100% / 2); } }
   @media screen and (min-width: 30em) {
-    .wcb_widget_sponsors .gold .sponsor-logo,
-    .wcb_widget_sponsors .in-kind .sponsor-logo {
+    .wcb_widget_sponsors .summit .sponsor-logo {
       width: calc(100% / 2); } }
   @media screen and (min-width: 48em) {
-    .wcb_widget_sponsors .gold .sponsor-logo,
-    .wcb_widget_sponsors .in-kind .sponsor-logo {
+    .wcb_widget_sponsors .summit .sponsor-logo {
       width: calc(100% / 3); } }
   @media screen and (min-width: 30em) {
-    .wcb_widget_sponsors .silver .sponsor-logo {
+    .wcb_widget_sponsors .land .sponsor-logo {
       width: calc(100% / 2); } }
   @media screen and (min-width: 48em) {
-    .wcb_widget_sponsors .silver .sponsor-logo {
+    .wcb_widget_sponsors .land .sponsor-logo {
       width: calc(100% / 4); } }
   @media screen and (min-width: 30em) {
-    .wcb_widget_sponsors .bronze .sponsor-logo {
+    .wcb_widget_sponsors .sand .sponsor-logo {
       width: calc(100% / 2); } }
   @media screen and (min-width: 48em) {
-    .wcb_widget_sponsors .bronze .sponsor-logo {
+    .wcb_widget_sponsors .sand .sponsor-logo {
       width: calc(100% / 5); } }
+  @media screen and (min-width: 30em) {
+    .wcb_widget_sponsors .sea .sponsor-logo {
+      width: calc(100% / 2); } }
+  @media screen and (min-width: 48em) {
+    .wcb_widget_sponsors .sea .sponsor-logo {
+      width: calc(100% / 6); } }
 
 .page-slug-tickets .tix_tickets_table tr {
   display: block;
