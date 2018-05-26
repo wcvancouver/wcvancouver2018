@@ -3433,6 +3433,15 @@ body {
   font-size: 16px;
   color: #000000; }
 
+.entry-summary a {
+  box-shadow: inset 0 -1px 0 #40c0f0;
+  transition: color 80ms ease-in, box-shadow 130ms ease-in-out; }
+
+.entry-summary a:focus,
+.entry-summary a:hover {
+  color: #40c0f0;
+  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+
 a.more-link {
   color: #40c0f0; }
 
