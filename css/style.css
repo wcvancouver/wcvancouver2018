@@ -3433,6 +3433,9 @@ body {
   font-size: 16px;
   color: #000000; }
 
+a.more-link {
+  color: #40c0f0; }
+
 .site-header {
   padding-top: 60px;
   background-color: transparent; }
@@ -3708,14 +3711,13 @@ body {
       top: -.4em;
       bottom: auto; }
     .widget-column .wcb_widget_sponsors .widget-title {
-      position: relative;
-      z-index: 2;
-      background: -webkit-linear-gradient(85deg, #B484B8, #34AFA5);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-size: 1.75rem;
-      text-transform: none;
-      margin-bottom: 1em; }
+      font-size: 24px;
+      color: #FFFFFF;
+      background-color: #40c0f0;
+      padding: .3rem 1.3rem;
+      font-size: 24px;
+      font-weight: 400;
+      display: inline-block; }
 
 .site-info {
   width: 100%;
@@ -3997,6 +3999,7 @@ body:not(.home) .custom-header {
         background-color: #40c0f0;
         padding: .3rem 1.3rem;
         font-size: 24px;
+        font-weight: 400;
         display: inline-block; }
   .twentyseventeen-panel:first-child .wrap > .entry-header {
     display: none; }
@@ -4089,7 +4092,7 @@ body:not(.home) .custom-header {
         font-size: 1.25rem; } }
 
 .wcb_widget_sponsors {
-  text-align: center; }
+  text-align: left; }
   .wcb_widget_sponsors .sponsor-level {
     overflow: hidden;
     margin: 0 -1em; }

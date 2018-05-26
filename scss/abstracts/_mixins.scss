@@ -56,12 +56,12 @@
   margin-bottom: 1em;
 }
 
-@mixin btn-styles(){
+@mixin section-title(){
   // border: 1px solid red;
   color: $white;
   background-color: $secondary-color;
   padding: .3rem 1.3rem;
   font-size: 24px;
+  font-weight: 400;
   display: inline-block;
-
 }

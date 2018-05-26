@@ -19,7 +19,7 @@
             .entry-title {
                 // @include bigIndexText();
                 font-size: $header-font-size;
-                @include btn-styles();
+                @include section-title();
             }
         }
     }
