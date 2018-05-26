@@ -12,12 +12,14 @@
         }
         > .entry-header {
             position: relative;
-            text-align: center;
+            text-align: left;
             &::before {
                 @include bigIndexBefore();
             }
             .entry-title {
-                @include bigIndexText();
+                // @include bigIndexText();
+                font-size: $header-font-size;
+                @include btn-styles();
             }
         }
     }

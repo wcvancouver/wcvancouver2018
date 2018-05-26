@@ -3517,7 +3517,7 @@ html * {
           height: calc((100vw / 3) * 2); }
           @media screen and (min-width: 48em) {
             .site-header .site-branding .site-branding-text .site-title a {
-              background-position: center center;
+              background-position: center right;
               width: 600px;
               height: calc((600px / 3) * 2); } }
     .site-header .site-branding .site-description {
@@ -3972,7 +3972,7 @@ body:not(.home) .custom-header {
         padding: calc(5em + 70px) 1.5em 4em; } }
     .twentyseventeen-panel .wrap > .entry-header {
       position: relative;
-      text-align: center; }
+      text-align: left; }
       .twentyseventeen-panel .wrap > .entry-header::before {
         position: absolute;
         bottom: .2em;
@@ -3988,14 +3988,11 @@ body:not(.home) .custom-header {
         line-height: 1;
         font-size: 3.5rem; }
       .twentyseventeen-panel .wrap > .entry-header .entry-title {
-        position: relative;
-        z-index: 2;
-        background: -webkit-linear-gradient(85deg, #B484B8, #34AFA5);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 1.75rem;
-        text-transform: none;
-        margin-bottom: 1em; }
+        font-size: 24px;
+        background-color: #40c0f0;
+        padding: .3rem 1.3rem;
+        font-size: 24px;
+        display: inline-block; }
   .twentyseventeen-panel:first-child .wrap > .entry-header {
     display: none; }
   .twentyseventeen-panel:nth-child(2) .wrap > .entry-header::before {
