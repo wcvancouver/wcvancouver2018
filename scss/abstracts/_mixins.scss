@@ -27,6 +27,10 @@
       url(https://wcosaka2018.github.io/wcosaka2018-theme/images/layout/bg-geometric.png);
 }
 
+@mixin bg-flat-primary() {
+  background-color: $primary-color;
+}
+
 @mixin bigIndexBefore( $content:"" ) {
   position: absolute;
   bottom: .2em;
@@ -54,6 +58,7 @@
 
 @mixin btn-styles(){
   // border: 1px solid red;
+  color: $white;
   background-color: $secondary-color;
   padding: .3rem 1.3rem;
   font-size: 24px;

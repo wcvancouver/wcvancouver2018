@@ -31,6 +31,7 @@
         }
     }
     &:nth-child(2) {
+        background-color: green;
         .wrap {
             > .entry-header {
                 &::before {
@@ -140,7 +141,7 @@
         }
     }
     &:nth-child(2n) {
-        @include bg-gradation();
+        @include bg-flat-primary();
         .wrap {
             > .entry-header {
                 &::before {

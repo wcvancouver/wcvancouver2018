@@ -1,3 +1,8 @@
 html * {
-   font-family: "din-2014",sans-serif;
+   font-family: "din-2014", sans-serif;
+}
+
+body {
+    font-size: $body-font-size;
+    color: $body-color;
 }

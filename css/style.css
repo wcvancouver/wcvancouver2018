@@ -3427,7 +3427,11 @@ body {
     padding-left: 2em; }
 
 html * {
-  font-family: "din-2014",sans-serif; }
+  font-family: "din-2014", sans-serif; }
+
+body {
+  font-size: 16px;
+  color: #000000; }
 
 .site-header {
   padding-top: 60px;
@@ -3989,14 +3993,17 @@ body:not(.home) .custom-header {
         font-size: 3.5rem; }
       .twentyseventeen-panel .wrap > .entry-header .entry-title {
         font-size: 24px;
+        color: #FFFFFF;
         background-color: #40c0f0;
         padding: .3rem 1.3rem;
         font-size: 24px;
         display: inline-block; }
   .twentyseventeen-panel:first-child .wrap > .entry-header {
     display: none; }
-  .twentyseventeen-panel:nth-child(2) .wrap > .entry-header::before {
-    content: "Welcome"; }
+  .twentyseventeen-panel:nth-child(2) {
+    background-color: green; }
+    .twentyseventeen-panel:nth-child(2) .wrap > .entry-header::before {
+      content: "Welcome"; }
   .twentyseventeen-panel:nth-child(3) .wrap > .entry-header::before {
     content: "Blog"; }
   @media screen and (min-width: 48em) {
@@ -4046,7 +4053,7 @@ body:not(.home) .custom-header {
   .twentyseventeen-panel:nth-child(5) .wrap > .entry-header::before {
     content: "Social Media"; }
   .twentyseventeen-panel:nth-child(2n) {
-    background: linear-gradient(45deg, rgba(52, 175, 165, 0.15), rgba(179, 214, 211, 0.15), rgba(180, 132, 184, 0.15)), url(https://wcosaka2018.github.io/wcosaka2018-theme/images/layout/bg-geometric.png); }
+    background-color: #FFD200; }
     .twentyseventeen-panel:nth-child(2n) .wrap > .entry-header::before {
       color: rgba(255, 255, 255, 0.95); }
 
