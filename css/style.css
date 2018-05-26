@@ -3693,7 +3693,10 @@ a.more-link {
 .site-footer {
   border: none; }
   .site-footer .wrap {
-    padding: 2em 1.5em 1.5em; }
+    padding: calc(4em + 20px) 1.5em 4em; }
+    @media screen and (min-width: 48em) {
+      .site-footer .wrap {
+        padding: calc(5em + 70px) 1.5em 4em; } }
 
 .widget-column {
   float: none !important;

@@ -2,7 +2,11 @@
     border: none;
 
     .wrap {
-        padding: 2em 1.5em 1.5em;
+        // padding: 2em 1.5em 1.5em;
+        padding: calc(4em + 20px) 1.5em 4em;
+        @media screen and (min-width: 48em) {
+            padding: calc(5em + 70px) 1.5em 4em;
+        }
     }
 }
 
