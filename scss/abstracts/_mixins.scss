@@ -1,67 +1,88 @@
-@mixin btn-link( $display:block, $radius:1.75em, $color-start:$color-green, $color-end:$color-lilac ) {
-  display: $display;
-  padding: 1em 2em;
-  border-radius: $radius;
-  background: $color-white linear-gradient(to right, rgba($color-start, .9), rgba($color-end, .9));
-  color: $color-white;
-  text-align: center;
-  position: relative;
-  z-index: 2;
-  box-shadow: none;
-  &:hover {
-      background: $color-white linear-gradient(to right, rgba($color-start, .7), rgba($color-end, .7));
-      color: $color-white;
-      box-shadow: none;
-  }
+@mixin btn-link($display: block, $radius: 1.75em, $color-start: $color-green, $color-end: $color-lilac) {
+    display: $display;
+    padding: 1em 2em;
+    border-radius: $radius;
+    background: $color-white linear-gradient(to right, rgba($color-start, 0.9), rgba($color-end, 0.9));
+    color: $color-white;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    box-shadow: none;
+
+    &:hover {
+        background: $color-white linear-gradient(to right, rgba($color-start, 0.7), rgba($color-end, 0.7));
+        color: $color-white;
+        box-shadow: none;
+    }
 }
 
-@mixin text-gradation( $dig:85deg, $start:$color-lilac, $end:$color-green) {
-  background: -webkit-linear-gradient($dig, $start, $end);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+@mixin text-gradation($dig: 85deg, $start: $color-lilac, $end: $color-green) {
+    background: -webkit-linear-gradient($dig, $start, $end);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-@mixin bg-gradation() {
-  background:
-      linear-gradient(45deg,rgba(52,175,165,0.15),rgba(179,214,211,0.15),rgba(180,132,184,0.15)),
-      url(https://wcosaka2018.github.io/wcosaka2018-theme/images/layout/bg-geometric.png);
+@mixin bg-gradation {
+    background: linear-gradient(45deg, rgba(52, 175, 165, 0.15), rgba(179, 214, 211, 0.15), rgba(180, 132, 184, 0.15)), url(https://wcosaka2018.github.io/wcosaka2018-theme/images/layout/bg-geometric.png);
 }
 
-@mixin bg-flat-primary() {
-  background-color: $primary-color;
+@mixin bg-flat-primary {
+    background-color: $primary-color;
 }
 
-@mixin bigIndexBefore( $content:"" ) {
-  position: absolute;
-  bottom: .2em;
-  left: 50%;
-  transform: translateY(0) translateX(-50%);
-  text-transform: uppercase;
-  content: $content;
-  white-space: pre;
-  z-index: 1;
-  color: rgba($color-black, .05);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  line-height: 1;
-  font-size: 3.5rem;
+@mixin bigIndexBefore($content: "") {
+    position: absolute;
+    bottom: .2em;
+    left: 50%;
+    transform: translateY(0) translateX(-50%);
+    text-transform: uppercase;
+    content: $content;
+    white-space: pre;
+    z-index: 1;
+    color: rgba($color-black, 0.05);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    line-height: 1;
+    font-size: 3.5rem;
 }
 
-@mixin bigIndexText() {
-  position: relative;
-  z-index: 2;
-  @include text-gradation();
-  font-size: 1.75rem;
-  text-transform: none;
-  margin-bottom: 1em;
+@mixin bigIndexText {
+    position: relative;
+    z-index: 2;
+
+    @include text-gradation;
+
+    font-size: 1.75rem;
+    text-transform: none;
+    margin-bottom: 1em;
 }
 
-@mixin section-title(){
-  // border: 1px solid red;
-  color: $white;
-  background-color: $secondary-color;
-  padding: .3rem 1.3rem;
-  font-size: 24px;
-  font-weight: 400;
-  display: inline-block;
+@mixin section-title {
+    // border: 1px solid red;
+    color: $white;
+    background-color: $secondary-color;
+    padding: .3rem 1.3rem;
+    font-size: 24px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+@mixin border-title($content: "") {
+    transform: translateY(50%) translateX(15%);
+    text-transform: uppercase;
+    content: $content;
+    z-index: -1;
+    border: 1px solid #F44336;
+    font-family: $main-font-family;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: white;
+    padding: .3rem 2.3rem;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    line-height: 1.4;
+    margin: 0 0 .75em;
 }

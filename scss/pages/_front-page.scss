@@ -14,7 +14,8 @@
             position: relative;
             text-align: left;
             &::before {
-                @include bigIndexBefore();
+                // @include bigIndexBefore();
+                @include border-title();
             }
             .entry-title {
                 // @include bigIndexText();

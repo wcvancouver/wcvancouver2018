@@ -22,7 +22,7 @@
         }
 
         img {
-            border-top: 1px solid rgba($color-black, 0.2);
+            // border-top: 1px solid rgba($color-black, 0.2);
             box-shadow: none;
             width: 100% !important;
             max-height: none !important;
@@ -31,7 +31,8 @@
 
     .sky {
 		.sponsor-level-title {
-			border-bottom: 1px solid $secondary-color;
+			color: $secondary-color;
+			border-bottom: 2px solid $secondary-color;
 		}
         .sponsor-logo {
             @media screen and (min-width: 30em) {
@@ -42,7 +43,8 @@
 
     .summit {
 		.sponsor-level-title {
-			border-bottom: 1px solid $primary-color;
+			color: $primary-color;
+			border-bottom: 2px solid $primary-color;
 		}
         .sponsor-logo {
             @media screen and (min-width: 30em) {
@@ -57,7 +59,8 @@
 
     .land {
 		.sponsor-level-title {
-			border-bottom: 1px solid $terciary-color;
+			color: $terciary-color;
+			border-bottom: 2px solid $terciary-color;
 		}
         .sponsor-logo {
             @media screen and (min-width: 30em) {
@@ -72,7 +75,8 @@
 
     .sand {
 		.sponsor-level-title {
-			border-bottom: 1px solid $primary-color;
+			color: $primary-color;
+			border-bottom: 2px solid $primary-color;
 		}
         .sponsor-logo {
             @media screen and (min-width: 30em) {
@@ -87,7 +91,8 @@
 	
 	.sea {
 		.sponsor-level-title {
-			border-bottom: $secondary-color;
+			color: $secondary-color;
+			border-bottom: 2px solid $secondary-color;
 		}
         .sponsor-logo {
             @media screen and (min-width: 30em) {

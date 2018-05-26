@@ -17,10 +17,11 @@
         position: relative;
 
         &::before {
-            @include bigIndexBefore("Sponsors");
+            // @include bigIndexBefore("Sponsors");
 
-            top: -.4em;
-            bottom: auto;
+            // top: -.4em;
+            // bottom: auto;
+            @include border-title("Sponsors");
         }
 
         .widget-title {
