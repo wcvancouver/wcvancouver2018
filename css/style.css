@@ -3440,7 +3440,7 @@ body {
 .entry-summary a:focus,
 .entry-summary a:hover {
   color: #40c0f0;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  box-shadow: inset 0 0 0 transparent, 0 3px 0 #40c0f0; }
 
 a.more-link {
   color: #40c0f0; }
