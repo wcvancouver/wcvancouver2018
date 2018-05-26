@@ -8,7 +8,10 @@
 
     .sponsor-level-title {
         width: 100%;
-		margin: 2em 0;
+        margin: 2em 0;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: .15em;
     }
 
     .sponsor-logo {
@@ -30,10 +33,11 @@
     }
 
     .sky {
-		.sponsor-level-title {
-			color: $secondary-color;
-			border-bottom: 2px solid $secondary-color;
-		}
+        .sponsor-level-title {
+            color: $secondary-color;
+            border-bottom: 2px solid $secondary-color;
+        }
+
         .sponsor-logo {
             @media screen and (min-width: 30em) {
                 width: calc(100% / 2);
@@ -42,10 +46,11 @@
     }
 
     .summit {
-		.sponsor-level-title {
-			color: $primary-color;
-			border-bottom: 2px solid $primary-color;
-		}
+        .sponsor-level-title {
+            color: $primary-color;
+            border-bottom: 2px solid $primary-color;
+        }
+
         .sponsor-logo {
             @media screen and (min-width: 30em) {
                 width: calc(100% / 2);
@@ -58,10 +63,11 @@
     }
 
     .land {
-		.sponsor-level-title {
-			color: $terciary-color;
-			border-bottom: 2px solid $terciary-color;
-		}
+        .sponsor-level-title {
+            color: $terciary-color;
+            border-bottom: 2px solid $terciary-color;
+        }
+
         .sponsor-logo {
             @media screen and (min-width: 30em) {
                 width: calc(100% / 2);
@@ -74,10 +80,11 @@
     }
 
     .sand {
-		.sponsor-level-title {
-			color: $primary-color;
-			border-bottom: 2px solid $primary-color;
-		}
+        .sponsor-level-title {
+            color: $primary-color;
+            border-bottom: 2px solid $primary-color;
+        }
+
         .sponsor-logo {
             @media screen and (min-width: 30em) {
                 width: calc(100% / 2);
@@ -87,13 +94,14 @@
                 width: calc(100% / 5);
             }
         }
-	}
-	
-	.sea {
-		.sponsor-level-title {
-			color: $secondary-color;
-			border-bottom: 2px solid $secondary-color;
-		}
+    }
+
+    .sea {
+        .sponsor-level-title {
+            color: $secondary-color;
+            border-bottom: 2px solid $secondary-color;
+        }
+
         .sponsor-logo {
             @media screen and (min-width: 30em) {
                 width: calc(100% / 2);
