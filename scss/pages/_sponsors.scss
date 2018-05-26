@@ -8,7 +8,7 @@
 
     .sponsor-level-title {
         width: 100%;
-        margin: 2em 0;
+		margin: 2em 0;
     }
 
     .sponsor-logo {
@@ -30,6 +30,9 @@
     }
 
     .sky {
+		.sponsor-level-title {
+			border-bottom: 1px solid $secondary-color;
+		}
         .sponsor-logo {
             @media screen and (min-width: 30em) {
                 width: calc(100% / 2);
@@ -38,6 +41,9 @@
     }
 
     .summit {
+		.sponsor-level-title {
+			border-bottom: 1px solid $primary-color;
+		}
         .sponsor-logo {
             @media screen and (min-width: 30em) {
                 width: calc(100% / 2);
@@ -50,6 +56,9 @@
     }
 
     .land {
+		.sponsor-level-title {
+			border-bottom: 1px solid $terciary-color;
+		}
         .sponsor-logo {
             @media screen and (min-width: 30em) {
                 width: calc(100% / 2);
@@ -62,6 +71,9 @@
     }
 
     .sand {
+		.sponsor-level-title {
+			border-bottom: 1px solid $primary-color;
+		}
         .sponsor-logo {
             @media screen and (min-width: 30em) {
                 width: calc(100% / 2);
@@ -74,6 +86,9 @@
 	}
 	
 	.sea {
+		.sponsor-level-title {
+			border-bottom: $secondary-color;
+		}
         .sponsor-logo {
             @media screen and (min-width: 30em) {
                 width: calc(100% / 2);

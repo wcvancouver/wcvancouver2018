@@ -4120,27 +4120,37 @@ body:not(.home) .custom-header {
       box-shadow: none;
       width: 100% !important;
       max-height: none !important; }
+  .wcb_widget_sponsors .sky .sponsor-level-title {
+    border-bottom: 1px solid #40c0f0; }
   @media screen and (min-width: 30em) {
     .wcb_widget_sponsors .sky .sponsor-logo {
       width: calc(100% / 2); } }
+  .wcb_widget_sponsors .summit .sponsor-level-title {
+    border-bottom: 1px solid #FFD200; }
   @media screen and (min-width: 30em) {
     .wcb_widget_sponsors .summit .sponsor-logo {
       width: calc(100% / 2); } }
   @media screen and (min-width: 48em) {
     .wcb_widget_sponsors .summit .sponsor-logo {
       width: calc(100% / 3); } }
+  .wcb_widget_sponsors .land .sponsor-level-title {
+    border-bottom: 1px solid #Da3223; }
   @media screen and (min-width: 30em) {
     .wcb_widget_sponsors .land .sponsor-logo {
       width: calc(100% / 2); } }
   @media screen and (min-width: 48em) {
     .wcb_widget_sponsors .land .sponsor-logo {
       width: calc(100% / 4); } }
+  .wcb_widget_sponsors .sand .sponsor-level-title {
+    border-bottom: 1px solid #FFD200; }
   @media screen and (min-width: 30em) {
     .wcb_widget_sponsors .sand .sponsor-logo {
       width: calc(100% / 2); } }
   @media screen and (min-width: 48em) {
     .wcb_widget_sponsors .sand .sponsor-logo {
       width: calc(100% / 5); } }
+  .wcb_widget_sponsors .sea .sponsor-level-title {
+    border-bottom: #40c0f0; }
   @media screen and (min-width: 30em) {
     .wcb_widget_sponsors .sea .sponsor-logo {
       width: calc(100% / 2); } }
