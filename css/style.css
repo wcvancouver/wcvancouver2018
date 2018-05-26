@@ -3704,23 +3704,26 @@ a.more-link {
     margin: 0 auto;
     position: relative; }
     .widget-column .wcb_widget_sponsors::before {
-      transform: translateY(50%) translateX(15%);
+      transform: translateY(33%) translateX(15%);
       text-transform: uppercase;
       content: "Sponsors";
       z-index: -1;
-      border: 1px solid #F44336;
+      border: 1px solid #40c0f0;
       font-family: "din-2014", sans-serif;
       font-weight: 400;
       font-size: 24px;
       line-height: 34px;
+      letter-spacing: .14em;
       color: white;
-      padding: .3rem 2.3rem;
+      padding: .3rem 1.3rem;
       top: 0;
       left: 0;
       bottom: 0;
       right: 0;
       line-height: 1.4;
-      margin: 0 0 .75em; }
+      margin: 0 0 .75em;
+      position: absolute;
+      display: inline-table; }
     .widget-column .wcb_widget_sponsors .widget-title {
       font-size: 24px;
       color: #FFFFFF;
@@ -3991,23 +3994,26 @@ body:not(.home) .custom-header {
       position: relative;
       text-align: left; }
       .twentyseventeen-panel .wrap > .entry-header::before {
-        transform: translateY(50%) translateX(15%);
+        transform: translateY(33%) translateX(15%);
         text-transform: uppercase;
         content: "";
         z-index: -1;
-        border: 1px solid #F44336;
+        border: 1px solid #40c0f0;
         font-family: "din-2014", sans-serif;
         font-weight: 400;
         font-size: 24px;
         line-height: 34px;
+        letter-spacing: .14em;
         color: white;
-        padding: .3rem 2.3rem;
+        padding: .3rem 1.3rem;
         top: 0;
         left: 0;
         bottom: 0;
         right: 0;
         line-height: 1.4;
-        margin: 0 0 .75em; }
+        margin: 0 0 .75em;
+        position: absolute;
+        display: inline-table; }
       .twentyseventeen-panel .wrap > .entry-header .entry-title {
         font-size: 24px;
         color: #FFFFFF;
