@@ -3383,6 +3383,9 @@ p > object:only-child {
   .site-footer {
     padding: 0; } }
 
+/*
+    2018 WordCamp Vancouver
+*/
 body {
   font-size: 14px;
   overflow-wrap: break-word; }
@@ -3563,12 +3566,6 @@ a.more-link {
         padding: 0 1.5em; }
       .site-header .navigation-top nav {
         margin-left: 0; } }
-  .site-header .navigation-top:before {
-    content: "";
-    display: block;
-    height: 8px;
-    width: 100%;
-    background: #ffffff linear-gradient(to right, rgba(52, 175, 165, 0.5), rgba(180, 132, 184, 0.5)); }
   .site-header .navigation-top .menu-toggle {
     z-index: 99999;
     outline: none;
@@ -3594,7 +3591,7 @@ a.more-link {
     font-size: .8rem; }
     @media screen and (min-width: 48em) {
       .main-navigation a {
-        font-size: .8rem; } }
+        font-size: 1rem; } }
     .main-navigation a:hover {
       color: initial; }
   .main-navigation > div > ul {
@@ -3679,11 +3676,11 @@ a.more-link {
         display: none; }
       .js .main-navigation ul.menu > li ul {
         border: none;
-        background-color: rgba(52, 175, 165, 0.8); }
+        background-color: rgba(64, 192, 240, 0.8); }
         .js .main-navigation ul.menu > li ul li a {
           color: #ffffff; }
         .js .main-navigation ul.menu > li ul li:hover {
-          background-color: #34afa5; }
+          background-color: #40c0f0; }
       .js .main-navigation ul.menu > li:hover ul {
         left: 0; }
       .js .main-navigation ul.menu > li:last-child:hover ul {
@@ -3694,6 +3691,12 @@ a.more-link {
   border: none; }
   .site-footer .wrap {
     padding: 2em 1.5em 1.5em; }
+
+.wcb_widget_sponsors {
+  display: none; }
+
+.home .wcb_widget_sponsors {
+  display: block; }
 
 .widget-column {
   float: none !important;
