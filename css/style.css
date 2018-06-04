@@ -3536,7 +3536,7 @@ a.more-link {
           height: calc((100vw / 3) * 2); }
           @media screen and (min-width: 48em) {
             .site-header .site-branding .site-branding-text .site-title a {
-              background-position: center right;
+              background-position: right;
               width: 600px;
               height: calc((600px / 3) * 2); } }
     .site-header .site-branding .site-description {
@@ -4083,12 +4083,12 @@ body:not(.home) .custom-header {
   text-align: center; }
   @media screen and (min-width: 48em) {
     .link-ticket-front {
-      transform: translateY(-2.75em) translateX(-50%); } }
+      transform: translateY(-2.75em) translateX(-23%); } }
   .link-ticket-front .btn-link-default {
     display: inline-block;
     padding: 1em 2em;
     border-radius: 1.75em;
-    background: #ffffff linear-gradient(to right, rgba(52, 175, 165, 0.9), rgba(180, 132, 184, 0.9));
+    background: #40c0f0;
     color: #ffffff;
     text-align: center;
     position: relative;
@@ -4096,14 +4096,15 @@ body:not(.home) .custom-header {
     box-shadow: none;
     margin: 0 auto;
     width: 290px;
-    font-size: 1rem; }
+    font-size: 1.25rem;
+    text-transform: uppercase; }
     .link-ticket-front .btn-link-default:hover {
-      background: #ffffff linear-gradient(to right, rgba(52, 175, 165, 0.7), rgba(180, 132, 184, 0.7));
+      background: #12b0eb;
       color: #ffffff;
       box-shadow: none; }
     @media screen and (min-width: 48em) {
       .link-ticket-front .btn-link-default {
-        width: 480px;
+        width: 2900px;
         font-size: 1.25rem; } }
 
 .wcb_widget_sponsors {

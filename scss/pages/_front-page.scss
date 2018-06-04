@@ -161,15 +161,18 @@
     transform: translateY(.5em) translateX(-50%);
     text-align: center;
     @media screen and (min-width: 48em) {
-        transform: translateY(-2.75em) translateX(-50%);
+        // transform: translateY(-2.75em) translateX(-50%);
+        transform: translateY(-2.75em) translateX(-23%);
     }
     .btn-link-default {
-        @include btn-link(inline-block);
+        @include btn-link-plain(inline-block);
         margin: 0 auto;
         width: 290px;
-        font-size: 1rem;
+        font-size: 1.25rem;
+        text-transform: uppercase;
         @media screen and (min-width: 48em) {
-            width: 480px;
+            // width: 480px;
+            width: 2900px;
             font-size: 1.25rem;
         }
     }
