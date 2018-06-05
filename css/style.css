@@ -3474,10 +3474,10 @@ a.more-link {
       .site-header .custom-header-media,
       .site-header .wp-custom-header,
       .site-header iframe, .site-header img {
-        width: 700px !important;
-        max-width: 700px !important;
-        min-width: 700px !important;
-        height: calc((700px / 16) * 9) !important;
+        width: 800px !important;
+        max-width: 800px !important;
+        min-width: 800px !important;
+        height: calc((800px / 16) * 9) !important;
         overflow: hidden;
         border-radius: 10px; } }
   .site-header .custom-header-media {
@@ -3513,7 +3513,7 @@ a.more-link {
       @media screen and (min-width: 48em) {
         .site-header .site-branding .wrap {
           max-width: 600px;
-          height: calc((700px / 16) * 9) !important; } }
+          height: calc((800px / 16) * 9) !important; } }
     .site-header .site-branding .site-branding-text {
       width: 100%; }
       @media screen and (min-width: 48em) {
@@ -3536,7 +3536,7 @@ a.more-link {
           height: calc((100vw / 3) * 2); }
           @media screen and (min-width: 48em) {
             .site-header .site-branding .site-branding-text .site-title a {
-              background-position: right;
+              background-position: bottom 0px left 50px;
               width: 600px;
               height: calc((600px / 3) * 2); } }
     .site-header .site-branding .site-description {
@@ -4078,15 +4078,15 @@ body:not(.home) .custom-header {
 .link-ticket-front {
   position: absolute;
   top: 0;
-  left: 50%;
-  transform: translateY(0.5em) translateX(-50%);
+  left: 0;
+  transform: translateY(0.5em) translateX(0%);
   text-align: center; }
   @media screen and (min-width: 48em) {
     .link-ticket-front {
-      transform: translateY(-2.75em) translateX(-23%); } }
+      transform: translateY(-2.75em) translateX(-40%); } }
   .link-ticket-front .btn-link-default {
     display: inline-block;
-    padding: 1em 2em;
+    padding: 0.5em 2em;
     border-radius: 1.75em;
     background: #40c0f0;
     color: #ffffff;
@@ -4104,7 +4104,7 @@ body:not(.home) .custom-header {
       box-shadow: none; }
     @media screen and (min-width: 48em) {
       .link-ticket-front .btn-link-default {
-        width: 290px;
+        width: 260px;
         font-size: 1.25rem; } }
 
 .wcb_widget_sponsors {

@@ -101,7 +101,7 @@
                   height: calc((100vw / 3) * 2);
                   @media screen and (min-width: 48em) {
                     //   background-position: center right;
-                      background-position: right;
+                      background-position: bottom 0px left 50px;
                       width: 600px;
                       height: calc((600px / 3) * 2);
                   }

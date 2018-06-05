@@ -18,7 +18,7 @@
 
 @mixin btn-link-plain($display: block){
     display: $display;
-    padding: 1em 2em;
+    padding: 0.5em 2em;
     border-radius: 1.75em;
     background: $blue;
     color: $color-white;
