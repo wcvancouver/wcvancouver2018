@@ -159,9 +159,18 @@
     top: 0;
     // left: 50%;
     left: 0;
-    // transform: translateY(.5em) translateX(-50%);
-    transform: translateY(.5em) translateX(0%);
+    transform: translateY(.5em) translateX(-50%);
+    // transform: translateY(.5em) translateX(0%);
     text-align: center;
+    @media screen and (min-width: 810px) {
+        left: 25%;
+    }
+    @media screen and (min-width: 960px) {
+        left: 15%;
+    }
+    @media screen and (min-width: 67em) {
+        left: 5%;
+    }
     @media screen and (min-width: 48em) {
         // transform: translateY(-2.75em) translateX(-50%);
         transform: translateY(-2.75em) translateX(-40%);

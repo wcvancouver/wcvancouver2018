@@ -3538,7 +3538,7 @@ a.more-link {
             .site-header .site-branding .site-branding-text .site-title a {
               background-position: bottom 0px left 50px;
               width: 600px;
-              height: calc((600px / 3) * 2); } }
+              height: calc((650px / 3) * 2); } }
     .site-header .site-branding .site-description {
       display: none; }
   .site-header .wp-custom-header-video-button {
@@ -4079,8 +4079,17 @@ body:not(.home) .custom-header {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translateY(0.5em) translateX(0%);
+  transform: translateY(0.5em) translateX(-50%);
   text-align: center; }
+  @media screen and (min-width: 810px) {
+    .link-ticket-front {
+      left: 25%; } }
+  @media screen and (min-width: 960px) {
+    .link-ticket-front {
+      left: 15%; } }
+  @media screen and (min-width: 67em) {
+    .link-ticket-front {
+      left: 5%; } }
   @media screen and (min-width: 48em) {
     .link-ticket-front {
       transform: translateY(-2.75em) translateX(-40%); } }
