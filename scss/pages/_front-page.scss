@@ -205,16 +205,16 @@
         left: 0;
     }
 
-    @media screen and (min-width: 67em) {
-        left: 5%;
+    @media screen and (min-width: 810px) {
+        left: 0;
     }
 
     @media screen and (min-width: 960px) {
         left: 15%;
     }
 
-    @media screen and (min-width: 810px) {
-        left: 25%;
+    @media screen and (min-width: 67em) {
+        left: 5%;
     }
 
     .btn-link-default {
