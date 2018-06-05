@@ -4188,6 +4188,32 @@ body:not(.home) .custom-header {
     .wcb_widget_sponsors .sea .sponsor-logo {
       width: calc(100% / 6); } }
 
+/*
+ * Sponsors Page
+ */
+.wcorg-sponsors h2 {
+  font-size: 26px;
+  font-size: 1.625rem;
+  text-transform: uppercase; }
+
+.wcorg-sponsors .wcorg-sponsor {
+  margin-bottom: 3em;
+  margin-top: 2em; }
+
+.wcorg-sponsors .wcorg-sponsor-level-sky h2,
+.wcorg-sponsors .wcorg-sponsor-level-sea h2 {
+  border-bottom: 2px solid #40c0f0;
+  color: #40c0f0; }
+
+.wcorg-sponsors .wcorg-sponsor-level-summit h2,
+.wcorg-sponsors .wcorg-sponsor-level-sand h2 {
+  border-bottom: 2px solid #FFD200;
+  color: #FFD200; }
+
+.wcorg-sponsors .wcorg-sponsor-level-land h2 {
+  border-bottom: 2px solid #Da3223;
+  color: #Da3223; }
+
 .page-slug-tickets .tix_tickets_table tr {
   display: block;
   width: 100%;

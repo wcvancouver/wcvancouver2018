@@ -113,3 +113,40 @@
         }
     }
 }
+
+
+/*
+ * Sponsors Page
+ */
+
+ .wcorg-sponsors {
+
+    h2 {
+        font-size: 26px;
+        font-size: 1.625rem;
+        text-transform: uppercase;
+    }
+
+    .wcorg-sponsor {
+        margin-bottom: 3em;
+        margin-top: 2em;
+    }
+
+    .wcorg-sponsor-level-sky h2,
+    .wcorg-sponsor-level-sea h2 {
+        border-bottom: 2px solid $blue;
+        color: $blue;
+    }
+
+    .wcorg-sponsor-level-summit h2,
+    .wcorg-sponsor-level-sand h2 {
+        border-bottom: 2px solid $yellow;
+        color: $yellow;     
+    }
+
+    .wcorg-sponsor-level-land h2 {
+        border-bottom: 2px solid $red;         
+        color: $red;
+    }
+
+ }
