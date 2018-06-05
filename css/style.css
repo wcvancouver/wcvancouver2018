@@ -4192,8 +4192,8 @@ body:not(.home) .custom-header {
  * Sponsors Page
  */
 .wcorg-sponsors h2 {
-  font-size: 26px;
-  font-size: 1.625rem;
+  font-size: 26px !important;
+  font-size: 1.625rem !important;
   text-transform: uppercase; }
 
 .wcorg-sponsors .wcorg-sponsor {
@@ -4203,16 +4203,16 @@ body:not(.home) .custom-header {
 .wcorg-sponsors .wcorg-sponsor-level-sky h2,
 .wcorg-sponsors .wcorg-sponsor-level-sea h2 {
   border-bottom: 2px solid #40c0f0;
-  color: #40c0f0; }
+  color: #40c0f0 !important; }
 
 .wcorg-sponsors .wcorg-sponsor-level-summit h2,
 .wcorg-sponsors .wcorg-sponsor-level-sand h2 {
   border-bottom: 2px solid #FFD200;
-  color: #FFD200; }
+  color: #FFD200 !important; }
 
 .wcorg-sponsors .wcorg-sponsor-level-land h2 {
   border-bottom: 2px solid #Da3223;
-  color: #Da3223; }
+  color: #Da3223 !important; }
 
 .page-slug-tickets .tix_tickets_table tr {
   display: block;
