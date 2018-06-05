@@ -4022,6 +4022,9 @@ body:not(.home) .custom-header {
     .twentyseventeen-panel:nth-child(2) .wrap > .entry-header::before {
       content: "About";
       color: #FFD200; }
+    @media screen and (width: 30em) {
+      .twentyseventeen-panel:nth-child(2) .wrap > .entry-header {
+        margin-bottom: 2em; } }
   .twentyseventeen-panel:nth-child(3) .wrap > .entry-header::before {
     content: "Blog"; }
   @media screen and (min-width: 48em) {
@@ -4084,10 +4087,10 @@ body:not(.home) .custom-header {
   @media screen and (min-width: 48em) {
     .link-ticket-front {
       transform: translateY(-2.75em) translateX(-40%);
-      left: 0; } }
+      left: 30%; } }
   @media screen and (min-width: 810px) {
     .link-ticket-front {
-      left: 0; } }
+      left: 25%; } }
   @media screen and (min-width: 960px) {
     .link-ticket-front {
       left: 15%; } }

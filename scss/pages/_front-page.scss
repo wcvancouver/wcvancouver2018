@@ -49,6 +49,11 @@
                     content: "About";
                     color: $primary-color;
                 }
+
+                @media screen and (width: 30em) {
+                    margin-bottom: 2em;
+                }
+
             }
         }
     }
@@ -202,11 +207,11 @@
     @media screen and (min-width: 48em) {
         // transform: translateY(-2.75em) translateX(-50%);
         transform: translateY(-2.75em) translateX(-40%);
-        left: 0;
+        left: 30%;
     }
 
     @media screen and (min-width: 810px) {
-        left: 0;
+        left: 25%;
     }
 
     @media screen and (min-width: 960px) {
