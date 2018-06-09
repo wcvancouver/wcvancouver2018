@@ -3780,7 +3780,8 @@ a.more-link {
     font-size: 14px;
     text-align: left; }
     .widget_custom_html .textwidget a {
-      color: #40c0f0; }
+      color: #40c0f0;
+      box-shadow: inset 0 -1px 0 #40c0f0; }
       .widget_custom_html .textwidget a:hover {
         color: #40c0f0;
         box-shadow: inset 0 0 0 transparent, 0 3px 0 #40c0f0; }

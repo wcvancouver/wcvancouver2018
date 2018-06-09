@@ -103,6 +103,7 @@
 
         a {
             color: $blue;
+            box-shadow: inset 0 -1px 0 $blue;
 
             &:hover {
                 color: $blue;
