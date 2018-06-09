@@ -1,9 +1,5 @@
 .widget {
     padding-bottom: 8rem !important;
-
-    &:last-child {
-        padding-bottom: 3rem !important;
-    }
 }
 
 .site-footer {
@@ -169,7 +165,7 @@
 .jetpack_subscription_widget::after {
     content: '';
     border: 2px solid $blue;
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100px;
     z-index: -1;
