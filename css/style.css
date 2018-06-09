@@ -3687,6 +3687,10 @@ a.more-link {
         left: auto;
         right: 0; } }
 
+.widget {
+  padding-top: 3em;
+  padding-bottom: 3em; }
+
 .site-footer {
   border: none; }
   .site-footer .wrap {
@@ -3764,8 +3768,16 @@ a.more-link {
     left: 50%;
     transform: translateX(-50%); }
 
-.home .widget_text {
-  display: none; }
+.widget_custom_html .widget-title {
+  font-size: 16px; }
+
+.widget_custom_html .textwidget {
+  font-size: 14px; }
+  .widget_custom_html .textwidget a {
+    color: #40c0f0; }
+    .widget_custom_html .textwidget a:hover {
+      color: #40c0f0;
+      box-shadow: inset 0 0 0 transparent, 0 3px 0 #40c0f0; }
 
 .jetpack_subscription_widget {
   max-width: 700px;
