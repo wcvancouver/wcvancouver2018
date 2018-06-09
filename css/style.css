@@ -3773,18 +3773,20 @@ a.more-link {
   padding-bottom: 0;
   position: relative; }
   .jetpack_subscription_widget .widget-title {
+    color: white;
     background-color: #40c0f0;
     margin: 0;
-    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.3rem;
     font-size: 22px; }
   .jetpack_subscription_widget #subscribe-text {
+    color: white;
     background-color: #40c0f0;
     margin: 0;
     padding-bottom: 1rem; }
     .jetpack_subscription_widget #subscribe-text p {
       margin: 0; }
   .jetpack_subscription_widget #subscribe-email {
-    margin: 1 0 1.5em;
     background-color: #40c0f0;
     padding: 1rem; }
     .jetpack_subscription_widget #subscribe-email input {
