@@ -3689,6 +3689,8 @@ a.more-link {
 
 .widget {
   padding-bottom: 8rem !important; }
+  .widget:last-child {
+    padding-bottom: 3rem !important; }
 
 .site-footer {
   border: none; }
