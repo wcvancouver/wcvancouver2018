@@ -3688,8 +3688,7 @@ a.more-link {
         right: 0; } }
 
 .widget {
-  padding-top: 3em;
-  padding-bottom: 3em; }
+  padding-bottom: 8rem !important; }
 
 .site-footer {
   border: none; }
@@ -3769,7 +3768,8 @@ a.more-link {
     transform: translateX(-50%); }
 
 .widget_custom_html {
-  max-width: 740px; }
+  max-width: 740px;
+  margin: 0 auto; }
   .widget_custom_html .widget-title {
     color: #Da3223;
     font-size: 16px;

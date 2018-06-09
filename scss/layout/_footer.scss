@@ -1,6 +1,5 @@
 .widget {
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-bottom: 8rem !important;
 }
 
 .site-footer {
@@ -88,6 +87,7 @@
 
 .widget_custom_html {
     max-width: 740px;
+    margin: 0 auto;
 
     .widget-title {
         color: $red;
