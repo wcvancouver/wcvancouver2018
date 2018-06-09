@@ -3768,16 +3768,22 @@ a.more-link {
     left: 50%;
     transform: translateX(-50%); }
 
-.widget_custom_html .widget-title {
-  font-size: 16px; }
-
-.widget_custom_html .textwidget {
-  font-size: 14px; }
-  .widget_custom_html .textwidget a {
-    color: #40c0f0; }
-    .widget_custom_html .textwidget a:hover {
-      color: #40c0f0;
-      box-shadow: inset 0 0 0 transparent, 0 3px 0 #40c0f0; }
+.widget_custom_html {
+  max-width: 740px; }
+  .widget_custom_html .widget-title {
+    color: #Da3223;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 0.3rem; }
+  .widget_custom_html .textwidget {
+    font-size: 14px;
+    text-align: left; }
+    .widget_custom_html .textwidget a {
+      color: #40c0f0; }
+      .widget_custom_html .textwidget a:hover {
+        color: #40c0f0;
+        box-shadow: inset 0 0 0 transparent, 0 3px 0 #40c0f0; }
 
 .jetpack_subscription_widget {
   max-width: 700px;
