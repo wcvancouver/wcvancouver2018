@@ -80,3 +80,34 @@
         display: none;
     }
 }
+
+.jetpack_subscription_widget {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    position: relative;
+
+    .widget-title {
+        background-color: $blue;
+        margin: 0;
+        padding-bottom: 1rem;
+    }
+
+    #subscribe-text {
+        background-color: $blue;
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    #subscribe-email {
+        margin: 1 0 1.5em;
+        background-color: $blue;;
+    }
+
+    #subscribe-submit {
+        text-align: right;
+    }
+}
