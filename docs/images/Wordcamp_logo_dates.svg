@@ -19,6 +19,10 @@
         font-weight: 500;
         letter-spacing: 0.05em;
       }
+
+      text {
+        font: "din-2014", sans-serif;
+      }
     </style>
   </defs>
   <g id="Group_20" data-name="Group 20" transform="translate(-511 -184.115)">
