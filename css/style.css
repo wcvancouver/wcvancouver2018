@@ -3392,7 +3392,7 @@ body {
   body:not(.home) .site {
     width: 100%;
     min-height: 100%;
-    background-image: url("https://wcosaka2018.github.io/wcosaka2018-theme/images/layout/logo-main-bg.png");
+    background-image: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/Wordcamp_logo.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 250px; }
@@ -3526,7 +3526,7 @@ a.more-link {
         padding: 1em 1.25em; }
         .site-header .site-branding .site-branding-text .site-title a {
           display: block;
-          background-image: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/Wordcamp_logo_dates.svg");
+          background-image: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/Wordcamp_logo_dates_v2.svg");
           background-size: contain;
           background-repeat: no-repeat;
           background-position: top left;
@@ -3896,7 +3896,7 @@ body:not(.home) .entry-content ul, body:not(.home) .entry-content ol {
     margin: 0; }
 
 body:not(.home) .entry-content a {
-  color: #34AFA5;
+  color: #40c0f0;
   box-shadow: none;
   text-decoration: underline; }
 
@@ -3965,7 +3965,7 @@ body:not(.home) .page-header {
       margin-top: -1px;
       position: absolute;
       top: 50%;
-      background: #Da3223; }
+      background: #40c0f0; }
     body:not(.home) .page-header .page-title:before {
       left: -3.5em; }
     body:not(.home) .page-header .page-title:after {
@@ -4002,7 +4002,7 @@ body:not(.home):not(.blog):not(.single) .entry-header {
       margin-top: -1px;
       position: absolute;
       top: 50%;
-      background: #Da3223; }
+      background: #40c0f0; }
     body:not(.home):not(.blog):not(.single) .entry-header .entry-title:before {
       left: -3.5em; }
     body:not(.home):not(.blog):not(.single) .entry-header .entry-title:after {

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffd200;
+      }
+    </style>
+  </defs>
+  <g id="Group_21" data-name="Group 21" transform="translate(-512 -2960)">
+    <g id="Group_16" data-name="Group 16" transform="translate(22 118)">
+      <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-1" cx="1.5" cy="1.5" r="1.5" transform="translate(493 2842)"/>
+      <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-1" cx="1.5" cy="1.5" r="1.5" transform="translate(499 2842)"/>
+      <circle id="Ellipse_7" data-name="Ellipse 7" class="cls-1" cx="1.5" cy="1.5" r="1.5" transform="translate(505 2842)"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" class="cls-1" cx="1.5" cy="1.5" r="1.5" transform="translate(490 2848)"/>
+      <circle id="Ellipse_11" data-name="Ellipse 11" class="cls-1" cx="1.5" cy="1.5" r="1.5" transform="translate(493 2854)"/>
+      <circle id="Ellipse_6" data-name="Ellipse 6" class="cls-1" cx="1.5" cy="1.5" r="1.5" transform="translate(496 2848)"/>
+      <circle id="Ellipse_10" data-name="Ellipse 10" class="cls-1" cx="1.5" cy="1.5" r="1.5" transform="translate(499 2854)"/>
+      <circle id="Ellipse_8" data-name="Ellipse 8" class="cls-1" cx="1.5" cy="1.5" r="1.5" transform="translate(502 2848)"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" class="cls-1" cx="1.5" cy="1.5" r="1.5" transform="translate(505 2854)"/>
+    </g>
+  </g>
+</svg>
