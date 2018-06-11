@@ -3395,7 +3395,7 @@ body {
     background-image: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/Wordcamp_logo.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
-    background-size: 250px; }
+    background-size: 20%; }
     @media screen and (min-width: 48em) {
       body:not(.home) .site {
         background: none; } }
