@@ -37,14 +37,29 @@
             color: $secondary-color;
             border-bottom: 2px solid $secondary-color;
 
+            // &::before {
+            //     content: "";
+            //     display: inline-block;
+            //     height: 125px;
+            //     width: 125px;
+            //     background-size: 125px 125px;
+            //     background-image: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/sky.svg");
+            //     background-repeat: no-repeat;
+            //     background-position: 0px 16px;
+            //     background-size: contain;
+            // }
+
             &::before {
-                content: "";
-                display: block;
+                content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/sky.svg");
+                display: inline-block;
                 height: 125px;
                 width: 125px;
-                background-size: 125px 125px;
-                background-image: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/sky.svg");
-                background-repeat: no-repeat;
+                // background-size: 125px 125px;
+                // background-image: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/sky.svg");
+                // background-repeat: no-repeat;
+                // background-position: 0px 16px;
+                // background-size: contain;
+                padding-right: 1em;
             }
         }
 
