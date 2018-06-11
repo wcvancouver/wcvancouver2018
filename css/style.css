@@ -4305,6 +4305,36 @@ body:not(.home) .custom-header {
   border-bottom: 2px solid #Da3223;
   color: #Da3223 !important; }
 
+.wcorg-sponsors .wcorg-sponsor-level-sky h2::before {
+  content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/sky.svg");
+  display: inline-block;
+  width: 2em;
+  padding-right: 0.5em; }
+
+.wcorg-sponsors .wcorg-sponsor-level-summit h2::before {
+  content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/summit.svg");
+  display: inline-block;
+  width: 2em;
+  padding-right: 0.5em; }
+
+.wcorg-sponsors .wcorg-sponsor-level-land h2::before {
+  content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/land.svg");
+  display: inline-block;
+  width: 2em;
+  padding-right: 0.5em; }
+
+.wcorg-sponsors .wcorg-sponsor-level-sand h2::before {
+  content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/sand.svg");
+  display: inline-block;
+  width: 2em;
+  padding-right: 0.5em; }
+
+.wcorg-sponsors .wcorg-sponsor-level-sea h2::before {
+  content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/sea.svg");
+  display: inline-block;
+  width: 2em;
+  padding-right: 0.5em; }
+
 .page-slug-tickets .tix_tickets_table tr {
   display: block;
   width: 100%;
