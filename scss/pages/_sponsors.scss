@@ -52,14 +52,8 @@
             &::before {
                 content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/sky.svg");
                 display: inline-block;
-                height: 125px;
-                width: 125px;
-                // background-size: 125px 125px;
-                // background-image: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/sky.svg");
-                // background-repeat: no-repeat;
-                // background-position: 0px 16px;
-                // background-size: contain;
-                padding-right: 1em;
+                width: 2em;
+                padding-right: 0.5em;
             }
         }
 
@@ -74,6 +68,13 @@
         .sponsor-level-title {
             color: $primary-color;
             border-bottom: 2px solid $primary-color;
+
+            &::before {
+                content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/summit.svg");
+                display: inline-block;
+                width: 2em;
+                padding-right: 0.5em;
+            }
         }
 
         .sponsor-logo {
@@ -91,6 +92,13 @@
         .sponsor-level-title {
             color: $terciary-color;
             border-bottom: 2px solid $terciary-color;
+
+            &::before {
+                content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/land.svg");
+                display: inline-block;
+                width: 2em;
+                padding-right: 0.5em;
+            }
         }
 
         .sponsor-logo {
@@ -108,6 +116,13 @@
         .sponsor-level-title {
             color: $primary-color;
             border-bottom: 2px solid $primary-color;
+
+            &::before {
+                content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/sand.svg");
+                display: inline-block;
+                width: 2em;
+                padding-right: 0.5em;
+            }
         }
 
         .sponsor-logo {
@@ -125,6 +140,13 @@
         .sponsor-level-title {
             color: $secondary-color;
             border-bottom: 2px solid $secondary-color;
+            
+            &::before {
+                content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/sea.svg");
+                display: inline-block;
+                width: 2em;
+                padding-right: 0.5em;
+            }
         }
 
         .sponsor-logo {

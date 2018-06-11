@@ -4217,15 +4217,19 @@ body:not(.home) .custom-header {
     .wcb_widget_sponsors .sky .sponsor-level-title::before {
       content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/sky.svg");
       display: inline-block;
-      height: 125px;
-      width: 125px;
-      padding-right: 1em; }
+      width: 2em;
+      padding-right: 0.5em; }
   @media screen and (min-width: 30em) {
     .wcb_widget_sponsors .sky .sponsor-logo {
       width: calc(100% / 2); } }
   .wcb_widget_sponsors .summit .sponsor-level-title {
     color: #FFD200;
     border-bottom: 2px solid #FFD200; }
+    .wcb_widget_sponsors .summit .sponsor-level-title::before {
+      content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/summit.svg");
+      display: inline-block;
+      width: 2em;
+      padding-right: 0.5em; }
   @media screen and (min-width: 30em) {
     .wcb_widget_sponsors .summit .sponsor-logo {
       width: calc(100% / 2); } }
@@ -4235,6 +4239,11 @@ body:not(.home) .custom-header {
   .wcb_widget_sponsors .land .sponsor-level-title {
     color: #Da3223;
     border-bottom: 2px solid #Da3223; }
+    .wcb_widget_sponsors .land .sponsor-level-title::before {
+      content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/land.svg");
+      display: inline-block;
+      width: 2em;
+      padding-right: 0.5em; }
   @media screen and (min-width: 30em) {
     .wcb_widget_sponsors .land .sponsor-logo {
       width: calc(100% / 2); } }
@@ -4244,6 +4253,11 @@ body:not(.home) .custom-header {
   .wcb_widget_sponsors .sand .sponsor-level-title {
     color: #FFD200;
     border-bottom: 2px solid #FFD200; }
+    .wcb_widget_sponsors .sand .sponsor-level-title::before {
+      content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/sand.svg");
+      display: inline-block;
+      width: 2em;
+      padding-right: 0.5em; }
   @media screen and (min-width: 30em) {
     .wcb_widget_sponsors .sand .sponsor-logo {
       width: calc(100% / 2); } }
@@ -4253,6 +4267,11 @@ body:not(.home) .custom-header {
   .wcb_widget_sponsors .sea .sponsor-level-title {
     color: #40c0f0;
     border-bottom: 2px solid #40c0f0; }
+    .wcb_widget_sponsors .sea .sponsor-level-title::before {
+      content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/sea.svg");
+      display: inline-block;
+      width: 2em;
+      padding-right: 0.5em; }
   @media screen and (min-width: 30em) {
     .wcb_widget_sponsors .sea .sponsor-logo {
       width: calc(100% / 2); } }
