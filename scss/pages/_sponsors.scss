@@ -36,6 +36,9 @@
         .sponsor-level-title {
             color: $secondary-color;
             border-bottom: 2px solid $secondary-color;
+            &::before {
+                content: url('https://wcvancouver.github.io/wcvancouver2018/docs/images/summit.svg');
+            }
         }
 
         .sponsor-logo {

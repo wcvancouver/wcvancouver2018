@@ -4214,6 +4214,8 @@ body:not(.home) .custom-header {
   .wcb_widget_sponsors .sky .sponsor-level-title {
     color: #40c0f0;
     border-bottom: 2px solid #40c0f0; }
+    .wcb_widget_sponsors .sky .sponsor-level-title::before {
+      content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/summit.svg"); }
   @media screen and (min-width: 30em) {
     .wcb_widget_sponsors .sky .sponsor-logo {
       width: calc(100% / 2); } }
