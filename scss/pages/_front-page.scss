@@ -96,6 +96,7 @@
     &:nth-child(4) {
         .wrap {
             > .entry-header {
+                z-index: 1;
                 &::before {
                     content: "Summary";
                 }

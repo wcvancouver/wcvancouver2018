@@ -4104,8 +4104,10 @@ body:not(.home) .custom-header {
     font-weight: bold; }
     .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title a:not(:hover) {
       box-shadow: none; }
-  .twentyseventeen-panel:nth-child(4) .wrap > .entry-header::before {
-    content: "Summary"; }
+  .twentyseventeen-panel:nth-child(4) .wrap > .entry-header {
+    z-index: 1; }
+    .twentyseventeen-panel:nth-child(4) .wrap > .entry-header::before {
+      content: "Summary"; }
   .twentyseventeen-panel:nth-child(4) .block-area {
     margin-bottom: 2em; }
     @media screen and (min-width: 48em) {
