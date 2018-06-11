@@ -36,8 +36,15 @@
         .sponsor-level-title {
             color: $secondary-color;
             border-bottom: 2px solid $secondary-color;
+
             &::before {
-                content: url('https://wcvancouver.github.io/wcvancouver2018/docs/images/summit.svg');
+                content: "";
+                display: block;
+                height: 125px;
+                width: 125px;
+                background-size: 125px 125px;
+                background-image: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/sky.svg");
+                background-repeat: no-repeat;
             }
         }
 
@@ -117,15 +124,13 @@
     }
 }
 
-
 /*
  * Sponsors Page
  */
 
- .wcorg-sponsors {
-
+.wcorg-sponsors {
     h2 {
-        font-size: 26px !important; 
+        font-size: 26px !important;
         font-size: 1.625rem !important;
         text-transform: uppercase;
     }
@@ -144,12 +149,11 @@
     .wcorg-sponsor-level-summit h2,
     .wcorg-sponsor-level-sand h2 {
         border-bottom: 2px solid $yellow;
-        color: $yellow !important;     
+        color: $yellow !important;
     }
 
     .wcorg-sponsor-level-land h2 {
-        border-bottom: 2px solid $red;         
+        border-bottom: 2px solid $red;
         color: $red !important;
     }
-
- }
+}

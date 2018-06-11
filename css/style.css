@@ -4215,7 +4215,13 @@ body:not(.home) .custom-header {
     color: #40c0f0;
     border-bottom: 2px solid #40c0f0; }
     .wcb_widget_sponsors .sky .sponsor-level-title::before {
-      content: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/summit.svg"); }
+      content: "";
+      display: block;
+      height: 125px;
+      width: 125px;
+      background-size: 125px 125px;
+      background-image: url("https://wcvancouver.github.io/wcvancouver2018/docs/images/sky.svg");
+      background-repeat: no-repeat; }
   @media screen and (min-width: 30em) {
     .wcb_widget_sponsors .sky .sponsor-logo {
       width: calc(100% / 2); } }
