@@ -4462,9 +4462,9 @@ body:not(.home) .custom-header {
   width: 100%;
   margin: 0 auto;
   display: inline-block;
-  padding: 1em 2em;
+  padding: 0.5em 2em;
   border-radius: 1.75em;
-  background: #ffffff linear-gradient(to right, rgba(52, 175, 165, 0.9), rgba(180, 132, 184, 0.9));
+  background: #40c0f0;
   color: #ffffff;
   text-align: center;
   position: relative;
@@ -4474,7 +4474,7 @@ body:not(.home) .custom-header {
   font-weight: normal;
   font-size: 1rem; }
   .page-slug-tickets input[type="submit"]:hover {
-    background: #ffffff linear-gradient(to right, rgba(52, 175, 165, 0.7), rgba(180, 132, 184, 0.7));
+    background: #12b0eb;
     color: #ffffff;
     box-shadow: none; }
   @media screen and (min-width: 48em) {
@@ -4483,9 +4483,9 @@ body:not(.home) .custom-header {
       font-size: 0.85rem; } }
   .page-slug-tickets input[type="submit"]:active {
     display: inline-block;
-    padding: 1em 2em;
+    padding: 0.5em 2em;
     border-radius: 1.75em;
-    background: #ffffff linear-gradient(to right, rgba(52, 175, 165, 0.9), rgba(180, 132, 184, 0.9));
+    background: #40c0f0;
     color: #ffffff;
     text-align: center;
     position: relative;
@@ -4494,7 +4494,7 @@ body:not(.home) .custom-header {
     border-radius: 4px;
     font-weight: normal; }
     .page-slug-tickets input[type="submit"]:active:hover {
-      background: #ffffff linear-gradient(to right, rgba(52, 175, 165, 0.7), rgba(180, 132, 184, 0.7));
+      background: #12b0eb;
       color: #ffffff;
       box-shadow: none; }
 
