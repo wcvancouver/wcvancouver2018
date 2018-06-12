@@ -3819,8 +3819,8 @@ a.more-link {
   .jetpack_subscription_widget #subscribe-submit {
     text-align: right; }
     .jetpack_subscription_widget #subscribe-submit input[type="submit"] {
-      background-color: #Da3223 !important;
-      text-transform: uppercase !important; }
+      background-color: #Da3223;
+      text-transform: uppercase; }
 
 .jetpack_subscription_widget::after {
   content: '';
@@ -4163,7 +4163,7 @@ body:not(.home) .custom-header {
       left: 25%; } }
   @media screen and (min-width: 960px) {
     .link-ticket-front {
-      left: 15%; } }
+      left: 11%; } }
   @media screen and (min-width: 67em) {
     .link-ticket-front {
       left: 5%; } }
@@ -4461,6 +4461,7 @@ body:not(.home) .custom-header {
 .page-slug-tickets input[type="submit"] {
   width: 100%;
   margin: 0 auto;
+  padding: .75em 2em;
   display: inline-block;
   padding: 0.5em 2em;
   border-radius: 1.75em;

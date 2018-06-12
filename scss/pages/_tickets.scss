@@ -162,6 +162,7 @@
   input[type="submit"] {
       width: 100%;
       margin: 0 auto;
+      padding: .75em 2em;
       @include btn-link-plain(inline-block);
       border-radius: 4px;
       font-weight: normal;
