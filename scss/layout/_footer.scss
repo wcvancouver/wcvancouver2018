@@ -157,8 +157,8 @@
         text-align: right;
 
         input[type="submit"] {
-            background-color: $red;
-            text-transform: uppercase;
+            background-color: $red !important;
+            text-transform: uppercase !important;
         }
     }
 }

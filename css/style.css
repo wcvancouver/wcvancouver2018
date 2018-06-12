@@ -3819,8 +3819,8 @@ a.more-link {
   .jetpack_subscription_widget #subscribe-submit {
     text-align: right; }
     .jetpack_subscription_widget #subscribe-submit input[type="submit"] {
-      background-color: #Da3223;
-      text-transform: uppercase; }
+      background-color: #Da3223 !important;
+      text-transform: uppercase !important; }
 
 .jetpack_subscription_widget::after {
   content: '';
