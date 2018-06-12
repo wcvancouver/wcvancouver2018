@@ -4459,11 +4459,10 @@ body:not(.home) .custom-header {
         border-bottom: 1px solid rgba(52, 175, 165, 0.5) !important; } }
 
 .page-slug-tickets input[type="submit"] {
-  width: 100%;
   margin: 0 auto;
   padding: .75em 2em;
   display: inline-block;
-  padding: 1em 2em;
+  padding: .75em 2em;
   border-radius: 1.75em;
   background: #Da3223;
   color: #ffffff;
@@ -4480,7 +4479,7 @@ body:not(.home) .custom-header {
     box-shadow: none; }
   .page-slug-tickets input[type="submit"]:active {
     display: inline-block;
-    padding: 1em 2em;
+    padding: .75em 2em;
     border-radius: 1.75em;
     background: #Da3223;
     color: #ffffff;
