@@ -1,61 +1,71 @@
 .wcorg-organizers {
-	display: block;
+    display: block;
+}
+
+.wcorg-organizer {
+    width: 100%;
+    padding: 2em 2em 1em;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: .5em;
+    /* border: 1px solid #dddddd; */
+    background-color: #f9f9f9;
 }
 
 @media screen and (min-width: 48em) {
-	.wcorg-organizers {
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;
-	}
-	
-	.wcorg-organizer {
-		width: calc(50% - .5em);
-		margin-bottom: 1em;
-	}
-	
-	.tix-row-coupon td {
-		width: 100% !important;
-	}
-	
-	.tix-row-coupon td input[type="text"] {
-		display: inline-block;
-		width: calc(100% - 160px) !important;
-		margin-right: 5px;
-	}
-	
-	.page-slug-tickets .tix_tickets_table tbody .tix-column-quantity {
-		width: 12%;
-	}
-	
-	.page-slug-tickets input[type="submit"] {
-		margin-top: 0 !important;
-	}
-	
-	.attendees-tab li {
-		padding: 0;
-		width: 30%;
-	}
-	
-	.attendees-tab span {
-		display: inline;
-	}
-	
-	#tix-attendees ul li {
-		width: calc(100% / 3) !important;
-		text-align: center;
-		margin: 0 0 6em;
-	}
-	
-	#tix-attendees ul li .avatar {
-		float: none;
-	}
-	
-	#tix-attendees .tix-field {
-		margin: 0;
-	}
-	
-	.tix-attendee-name {
-		justify-content: center;
-	}
+    .wcorg-organizers {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .wcorg-organizer {
+        width: calc(50% - .5em);
+        margin-bottom: 1em;
+    }
+
+    // .tix-row-coupon td {
+    // 	width: 100% !important;
+    // }
+
+    // .tix-row-coupon td input[type="text"] {
+    // 	display: inline-block;
+    // 	width: calc(100% - 160px) !important;
+    // 	margin-right: 5px;
+    // }
+
+    // .page-slug-tickets .tix_tickets_table tbody .tix-column-quantity {
+    // 	width: 12%;
+    // }
+
+    // .page-slug-tickets input[type="submit"] {
+    // 	margin-top: 0 !important;
+    // }
+
+    // .attendees-tab li {
+    // 	padding: 0;
+    // 	width: 30%;
+    // }
+
+    // .attendees-tab span {
+    // 	display: inline;
+    // }
+
+    // #tix-attendees ul li {
+    // 	width: calc(100% / 3) !important;
+    // 	text-align: center;
+    // 	margin: 0 0 6em;
+    // }
+
+    // #tix-attendees ul li .avatar {
+    // 	float: none;
+    // }
+
+    // #tix-attendees .tix-field {
+    // 	margin: 0;
+    // }
+
+    // .tix-attendee-name {
+    // 	justify-content: center;
+    // }
 }
