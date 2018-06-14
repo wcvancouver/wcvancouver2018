@@ -4336,6 +4336,10 @@ body:not(.home) .custom-header {
   width: 2em;
   padding-right: 0.5em; }
 
+.wcorg-sponsors img {
+  width: 100%;
+  max-width: 200px; }
+
 .page-slug-tickets .tix_tickets_table tr {
   display: block;
   width: 100%;
