@@ -4045,9 +4045,6 @@ body:not(.home) .custom-header {
   background: rgba(52, 175, 165, 0.15);
   border-bottom: 2px solid rgba(52, 175, 165, 0.75); }
 
-.page-slug-schedule .entry-content table td.wcb-track-track-1 {
-  border-right: 1px solid rgba(52, 175, 165, 0.5); }
-
 .page-slug-schedule .entry-content table td:not(.wcpt-time) {
   border-left: 1px solid rgba(52, 175, 165, 0.5); }
 
