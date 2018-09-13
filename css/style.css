@@ -4048,8 +4048,8 @@ body:not(.home) .custom-header {
 .page-slug-schedule .entry-content table td.wcb-track-track-1 {
   border-right: 1px solid rgba(52, 175, 165, 0.5); }
 
-.page-slug-schedule .entry-content table td.wcpt-time {
-  border-right: 1px solid rgba(52, 175, 165, 0.5); }
+.page-slug-schedule .entry-content table td:not(.wcpt-time) {
+  border-left: 1px solid rgba(52, 175, 165, 0.5); }
 
 .page-slug-schedule .entry-content table tr.wcpt-time-415pm, .page-slug-schedule .entry-content table tr.wcpt-time-430pm {
   border-bottom: 0 !important; }

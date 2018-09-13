@@ -245,12 +245,12 @@
             border-right: 1px solid rgba(52, 175, 165, 0.5);
         }
 
-        td.wcpt-time {
-            border-right: 1px solid rgba(52, 175, 165, 0.5);
+        td:not(.wcpt-time) {
+            border-left: 1px solid rgba(52, 175, 165, 0.5);
         }
 
         tr.wcpt-time-415pm, tr.wcpt-time-430pm {
-          border-bottom: 0 !important;
-      }
+            border-bottom: 0 !important;
+        }
     }
 }
