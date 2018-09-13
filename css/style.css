@@ -4036,6 +4036,24 @@ body:not(.home) .custom-header {
 .site-content-contain {
   background-color: transparent; }
 
+.page-slug-schedule .entry-content table tr {
+  border-bottom: 1px solid rgba(52, 175, 165, 0.5); }
+  .page-slug-schedule .entry-content table tr th, .page-slug-schedule .entry-content table tr td {
+    padding: .5em 1em; }
+
+.page-slug-schedule .entry-content table thead tr th, .page-slug-schedule .entry-content table thead tr td {
+  background: rgba(52, 175, 165, 0.15);
+  border-bottom: 2px solid rgba(52, 175, 165, 0.75); }
+
+.page-slug-schedule .entry-content table td.wcb-track-track-1 {
+  border-right: 1px solid rgba(52, 175, 165, 0.5); }
+
+.page-slug-schedule .entry-content table td.wcpt-time {
+  border-right: 1px solid rgba(52, 175, 165, 0.5); }
+
+.page-slug-schedule .entry-content table tr.wcpt-time-415pm, .page-slug-schedule .entry-content table tr.wcpt-time-430pm {
+  border-bottom: 0 !important; }
+
 .twentyseventeen-panel {
   border-top: none !important;
   overflow: visible; }
